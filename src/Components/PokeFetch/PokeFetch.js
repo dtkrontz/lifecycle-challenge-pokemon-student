@@ -82,7 +82,7 @@ class PokeFetch extends Component {
     } else {
       return (
         <div>
-        <h1 className={'timer'} >Timer Display {this.state.timer}</h1>
+        <h1 className={'timer'} >Timer Display: {this.state.timer}</h1>
         <div className={'pokeWrap'}>
           <img style={{filter: 'brightness(0%)'}} className={'pokeImg'} src={this.state.pokeSprite} />
         </div>
